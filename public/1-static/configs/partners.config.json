@@ -1,0 +1,26 @@
+{
+  "FSP": [
+    {
+      "partnerId": "FSP_1199354048231460864",
+      "label": "Airtel Money Uganda"
+    },
+    {
+      "partnerId": "FSP_1126480217392447488",
+      "label": "MTN"
+    },
+    {
+      "partnerId": "FSP_1126475963701297152",
+      "label": "Airtel"
+    },
+    {
+      "partnerId": "FSP_1217497024226291712",
+      "label": "FLEXIPAY"
+    }
+  ],
+  "NXTPE": [
+    {
+      "partnerId": "NXTPE_001",
+      "label": "NxtPe"
+    }
+  ]
+}

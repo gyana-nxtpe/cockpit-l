@@ -1,0 +1,25 @@
+.dashboardMain {
+    display: flex;
+    background-color: #F7F8FA;
+    .widget-container {
+      width: calc(100% - 290px);
+      padding: 2rem;
+      margin-top: 6rem;
+      min-height: calc(100vh - 6rem);
+  
+      .widgetTop-nav {
+        display: flex;
+        flex-direction: reverse;
+        .profileName {
+          .username {
+            font-weight: 600;
+            color: #11141A;
+          }
+          .welcomeWish {
+            color: #7F8FA4;
+          }
+        }
+      }
+    }
+  }
+  

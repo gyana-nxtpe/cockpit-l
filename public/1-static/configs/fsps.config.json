@@ -1,0 +1,12 @@
+[
+    {
+      "id":"FSP_1126475963701297152",
+      "label":"Airtel",
+      "fspType": "WALLET"
+    },
+    {
+      "id":"FSP_1126480217392447488",
+      "label":"Flexipay",
+      "fspType": "WALLET"
+    }
+  ]

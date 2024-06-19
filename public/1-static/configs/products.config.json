@@ -1,0 +1,26 @@
+[
+    {
+      "id":"RE_COLLECT",
+      "label":"Re Collect"
+    },
+    {
+      "id":"REAL_COLLECT",
+      "label":"Real Collect"
+    },
+    {
+      "id":"RIDE_COLLECT",
+      "label":"Ride Collect"
+    },
+    {
+      "id":"SURE_COLLECT",
+      "label":"Sure Collect"
+    },
+    {
+      "id":"RAPID_COLLECT",
+      "label":"Rapid Collect"
+    },
+    {
+      "id":"MANDATE_COLLECT",
+      "label":"Mandate Collect"
+    }
+  ]

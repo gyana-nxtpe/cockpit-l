@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Merchant Creation",
+        "url":"merchantCreation",
+        "step":"1"
+    },
+    {   
+        "name":"Plan Configuration",
+        "url":"planConfiguration",
+        "step":"2"
+    },
+    {
+        "name":"Till Registration",
+        "url":"tillRegistration",
+        "step":"3"
+    },
+    {
+        "name":"Fee Plan Configuration",
+        "url":"feePlanConfiguration",
+        "step":"4"
+    },
+    {
+        "name":"Fee Rule Configuration",
+        "url":"feeRuleConfiguration",
+        "step":"5"
+    }
+]

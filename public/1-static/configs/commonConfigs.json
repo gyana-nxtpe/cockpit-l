@@ -1,0 +1,7 @@
+{
+  "feeBearers": ["MERCHANT", "CUSTOMER"],
+  "transactionTypes": ["COLLECTION", "REFUND", "DISBURSEMENT"],
+  "feeTypes": ["PERCENT", "FLAT"],
+  "taxTypes": ["PERCENT", "FLAT"],
+  "taxEntities": ["FEE", "FSP_FEE", "AMOUNT", "TOTAL"]
+}

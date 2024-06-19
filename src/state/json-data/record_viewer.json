@@ -1,0 +1,906 @@
+{
+  "mandates": [
+    {
+      "key": "mandateId",
+      "label": "Mandate ID",
+      "isVisible": true,
+      "width": "160px",
+      "isClickable": true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerId",
+      "label": "Customer ID",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "isSearchAllowed":true,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "orderId",
+      "label": "Order ID",
+      "isVisible": false,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerFinancialInstitutionName",
+      "label": "Customer FI Name",
+      "isVisible": false,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "msisdn",
+      "label": "Customer FI MSISDN",
+      "isVisible": false,
+      "width": "150px",
+      "isSearchAllowed": true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "createdDate",
+      "label": "Creation Timestamp",
+      "isVisible": true,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": true,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "100px",
+      "isFilterAllowed": true,
+      "filtersList": [],
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "limit",
+      "label": "Limit",
+      "isVisible": true,
+      "width": "110px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "currency",
+      "label": "Currency",
+      "isVisible": true,
+      "isClickable": false,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "expiryDate",
+      "label": "Expiry Date",
+      "isVisible": false,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "frequency",
+      "label": "Frequency",
+      "isVisible": true,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "lastModifiedDate",
+      "label": "Last Updated",
+      "isVisible": true,
+      "isClickable": true,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": true,
+      "sort": "DESC",
+      "filter": ""
+    },
+    {
+      "key": "actions",
+      "label": "Actions",
+      "isVisible": true,
+      "width": "100px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "collections": [
+    {
+      "key": "orderId",
+      "label": "Order ID",
+      "isVisible": false,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "mandateId",
+      "label": "Mandate ID",
+      "isVisible": true,
+      "width": "160px",
+      "isClickable": true,
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionDate",
+      "label": "Collection Date",
+      "isVisible": true,
+      "width": "160px",
+      "isFilterAllowed": false,
+      "isSortAllowed": true,
+      "sort": "DESC",
+      "filter": ""
+    },
+    {
+      "key": "customerId",
+      "label": "Customer ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionId",
+      "label": "Collection ID",
+      "isVisible": false,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "tillNumber",
+      "label": "Till Number",
+      "isVisible": false,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "msisdn",
+      "label": "Customer FI MSISDN",
+      "isVisible": true,
+      "width": "160px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspTxnId",
+      "label": "Financial Institution TxnId",
+      "isVisible": true,
+      "width": "200px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerFinancialInstitutionName",
+      "label": "Customer FI Name",
+      "isVisible": false,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "85px",
+      "isFilterAllowed": true,
+      "filtersList": [],
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "baseAmount",
+      "label": "Base Amount",
+      "isVisible": true,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerPaymentFee",
+      "label": "Customer Payment Fee",
+      "isVisible": false,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerTaxAmount",
+      "label": "Customer Tax Amount",
+      "isVisible": false,
+      "width": "170px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionAmount",
+      "label": "Collection Amount",
+      "isVisible": true,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "currency",
+      "label": "Currency",
+      "isClickable": false,
+      "isVisible": false,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "action",
+      "label": "Action",
+      "isVisible": true,
+      "width": "65px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "settlements": [
+    {
+      "key": "settlementId",
+      "label": "Settlement ID",
+      "isVisible": false,
+      "width": "100px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionId",
+      "label": "Collection ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "currency",
+      "label": "Currency",
+      "isVisible": true,
+      "width": "100px",
+      "isStatusColumn": true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "settledAmount",
+      "label": "Settled Amount",
+      "isVisible": true,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "100px",
+      "isStatusColumn": true,
+      "isFilterAllowed": true,
+      "filtersList": [],
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "merchantFiAccountNo",
+      "label": "Merchant FI Account No",
+      "isVisible": true,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "merchantFinancialInstitutionName",
+      "label": "Merchant FI Name",
+      "isVisible": false,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspTxnId",
+      "label": "Financial Institution TxnId",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "lastModifiedDate",
+      "label": "Settlement Date",
+      "isVisible": true,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": true,
+      "sort": "DESC",
+      "filter": ""
+    }
+  ],
+  "refunds": [
+    {
+      "key": "refundId",
+      "label": "Refund Request ID",
+      "isVisible": true,
+      "width": "150px",
+      "isClickable": false,
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerId",
+      "label": "Customer ID",
+      "isVisible": true,
+      "width": "100px",
+      "isClickable": false,
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "orderId",
+      "label": "Order ID",
+      "isVisible": false,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerMsisdn",
+      "label": "Customer MSISDN",
+      "isVisible": true,
+      "width": "140px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "requestDate",
+      "label": "Request Date",
+      "isVisible": true,
+      "width": "200px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": true,
+      "sort": "DESC",
+      "filter": ""
+    },
+    {
+      "key": "collectionId",
+      "label": "Collection ID",
+      "isVisible": false,
+      "width": "100px",
+      "isClickable": true,
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionAmount",
+      "label": "Collection Amount",
+      "isVisible": false,
+      "width": "160px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "refundAmount",
+      "label": "Refund Amount",
+      "isVisible": true,
+      "width": "125px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "120px",
+      "isClickable": false,
+      "isFilterAllowed": true,
+      "filtersList": [],
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspTxnId",
+      "label": "Txn ID",
+      "isVisible": true,
+      "width": "100px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "txnDateTime",
+      "label": "Txn Date Time",
+      "isVisible": true,
+      "width": "210px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerAccountNumber",
+      "label": "Customer Account Number",
+      "isVisible": true,
+      "width": "210px",
+      "isClickable": false,
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "currency",
+      "label": "Currency",
+      "isVisible": true,
+      "width": "130px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "audit": [
+    {
+      "key": "lastModifiedDate",
+      "label": "Updated Timestamp",
+      "isVisible": true,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "100px",
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "remarks",
+      "label": "Remark",
+      "isVisible": true,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "collectionDetails": [
+    {
+      "key": "lastModifiedDate",
+      "label": "Collection Date",
+      "isVisible": true,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "nxtpeCollectionId",
+      "label": "NxtPe Collection ID",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "amount",
+      "label": "Amount",
+      "isVisible": true,
+      "width": "80px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "isVisible": true,
+      "width": "80px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspTxnId",
+      "label": "FSP TxnID",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "assure": [
+    {
+      "key": "entityId",
+      "label": "Alert ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "alertStatus",
+      "label": "Alert Status",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "nxtpe_collection_id",
+      "label": "Transaction ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "orderId",
+      "label": "Order ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspId",
+      "label": "FSP ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "cxId",
+      "label": "Customer ID",
+      "isVisible": true,
+      "width": "100px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "baseAmount",
+      "label": "Base Amount",
+      "isVisible": false,
+      "width": "100px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "collectionAmount",
+      "label": "Collection Amount",
+      "isVisible": true,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "merchantSettlementAmount",
+      "label": "Merchant Settlement Amount",
+      "isVisible": false,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerSettlementAmount",
+      "label": "Customer Settlement Amount",
+      "isVisible": false,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "fspTxnId",
+      "label": "Financial Institution TxnId",
+      "isVisible": true,
+      "width": "200px",
+      "isSearchAllowed":true,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "action",
+      "label": "Action",
+      "isVisible": true,
+      "width": "65px",
+      "isClickable": false,
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ],
+  "subscriptions": [
+    {
+      "key": "externalSubscriptionId",
+      "label": "External Subscription Id",
+      "isVisible": true,
+      "width": "170px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerName",
+      "label": "Customer Name",
+      "isVisible": true,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerMsisdn",
+      "label": "Customer Mobile No.",
+      "isVisible": true,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerEmail",
+      "label": "Customer Email",
+      "isVisible": false,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "customerAccountId",
+      "label": "Customer Account ID",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "planFrequency",
+      "label": "Plan Frequency",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "subscriptionExpiry",
+      "label": "Subscription Expiry",
+      "isVisible": false,
+      "width": "140px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "subscriptionAmount",
+      "label": "Subscription Amount",
+      "isVisible": true,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "subscriptionPlanName",
+      "label": "Subscription Plan Name",
+      "isVisible": true,
+      "width": "180px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "autoPaymentStatus",
+      "label": "Auto Payment Status",
+      "isVisible": true,
+      "width": "160px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "autoPaymentSetOn",
+      "label": "Auto Payment Set On",
+      "isVisible": false,
+      "width": "150px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "upcomingRenewalDueOn",
+      "label": "Upcoming Renewal Due On",
+      "isVisible": false,
+      "width": "200px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    },
+    {
+      "key": "addedOn",
+      "label": "Added On",
+      "isVisible": true,
+      "width": "120px",
+      "isFilterAllowed": false,
+      "isSortAllowed": false,
+      "sort": "",
+      "filter": ""
+    }
+  ]
+}

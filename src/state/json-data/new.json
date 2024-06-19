@@ -1,0 +1,138 @@
+{
+    "Mandate":{
+        "tableColumns":[
+            { "key": "mandateId", "label": "Mandate ID", "isVisible": true, "isClickable": true, "searchEnabled": true  },
+            { "key": "customerId", "label": "Customer ID", "isVisible": true, "searchEnabled": false  },
+            { "key": "mobileNo", "label": "Mobile No", "isVisible": true, "searchEnabled": false  },
+            { "key": "creationTime", "label": "Creation Time", "isVisible": true, "searchEnabled": false  },
+            { "key": "status", "label": "Status", "isVisible": true, "isStatusColumn": true , "searchEnabled": false },
+            { "key": "limit", "label": "Limit (Amount)", "isVisible": true, "searchEnabled": false  },
+            { "key": "expiryDate", "label": "Expiry Date", "isVisible": true,"searchEnabled": false  },
+            { "key": "frequency", "label": "Frequency (Months)", "isVisible": true, "searchEnabled": false  },
+            { "key": "lastUpdated", "label": "Last Updated", "isVisible": true , "searchEnabled": false },
+            { "key": "associatedFiid", "label": "Associated FI ID", "isVisible": true, "searchEnabled": false  }
+        ],
+        "tableData": [
+            {
+              "mandateId": "1",
+              "status": "Active",
+              "lastUpdated": "2023-05-25",
+              "mobileNo": "1234567890",
+              "customerId": "C001",
+              "creationTime": "2023-05-01",
+              "limit": 1000,
+              "expiryDate": "2024-05-01",
+              "frequency": 1,
+              "associatedFiid": "FI001"
+            },
+            {
+              "mandateId": "2",
+              "status": "Suspended",
+              "lastUpdated": "2023-05-24",
+              "mobileNo": "9876543210",
+              "customerId": "C002",
+              "creationTime": "2023-04-15",
+              "limit": 2000,
+              "expiryDate": "2024-04-15",
+              "frequency": 1,
+              "associatedFiid": "FI002"
+            },
+            {
+              "mandateId": "3",
+              "status": "Paused",
+              "lastUpdated": "2023-05-23",
+              "mobileNo": "4567890123",
+              "customerId": "C003",
+              "creationTime": "2023-06-01",
+              "limit": 1500,
+              "expiryDate": "2024-06-01",
+              "frequency": 1,
+              "associatedFiid": "FI003"
+            },
+            {
+              "mandateId": "5",
+              "status": "Cancelled",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            },
+            {
+              "mandateId": "6",
+              "status": "Cancelled",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            },
+            {
+              "mandateId": "7",
+              "status": "Suspended",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            },
+            {
+              "mandateId": "8",
+              "status": "Active",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            },
+            {
+              "mandateId": "9",
+              "status": "Paused",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            },
+            {
+              "mandateId": "10",
+              "status": "Cancelled",
+              "lastUpdated": "2023-05-22",
+              "mobileNo": "7890123456",
+              "customerId": "C004",
+              "creationTime": "2023-03-20",
+              "limit": 3000,
+              "expiryDate": "2024-03-20",
+              "frequency": 1,
+              "associatedFiid": "FI004"
+            }
+          ],
+        "filters":{
+
+        },
+        "search":{
+
+        },
+        "paging":{
+            "start":"",
+            "end":"",
+            "pageSize":"",
+            "totalPages":""
+        }
+    }
+}

@@ -1,0 +1,792 @@
+{
+    "topTenMerchants": [{
+            "key": "merchantName",
+            "label": "Merchant Name",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "merchantId",
+            "label": "Merchant Id",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalTransactionValue",
+            "label": "Total Transaction Value",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "activeMandates",
+            "label": "Active Mandates",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "activeUsers",
+            "label": "Active Users",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "arpu",
+            "label": "ARPU",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalRevenue",
+            "label": "Total Revenue",
+            "isVisible": true,
+            "width": "130px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        }
+    ],
+    "revenueAssurance": [{
+            "key": "name",
+            "label": "Name",
+            "isVisible": true,
+            "width": "100px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "currency",
+            "label": "Currency",
+            "isVisible": true,
+            "width": "100px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalCollected",
+            "label": "Total Collected",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "fspTxnFeeCollected",
+            "label": "FSP Txn Fee",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "taxFeeCollected",
+            "label": "Tax",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "platformFeeCollected",
+            "label": "Platform Fee",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "merchantSettlementAmount",
+            "label": "Total Settled to Merchant",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalUnsettled",
+            "label": "Total Unsettled",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "fspPlatformFeeCollected",
+            "label": "FSP Share",
+            "isVisible": true,
+            "width": "130px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "nxtpePlatformFeeCollected",
+            "label": "Nxtpe Share",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "reconciliationAmount",
+            "label": "Reconciliation Amount",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+    ],
+    "transactions": [{
+            "key": "merchantName",
+            "label": "Merchant Name",
+            "isVisible": false,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "orderId",
+            "label": "Order ID",
+            "isVisible": false,
+            "width": "100px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "mandateId",
+            "label": "Mandate ID",
+            "isVisible": true,
+            "width": "140px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionDate",
+            "label": "Collection Date",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "130px",
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "customerAccountNumber",
+            "label": "Customer Account No",
+            "isVisible": true,
+            "width": "160px",
+            "isStatusColumn": true,
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "fspTxnId",
+            "label": "Transaction Id",
+            "isVisible": true,
+            "width": "145px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "baseAmount",
+            "label": "Base Amount",
+            "isVisible": false,
+            "width": "100px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "customerPaymentFee",
+            "label": "Customer Payment Fee",
+            "isVisible": false,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "customerTaxAmount",
+            "label": "Customer Tax Amount",
+            "isVisible": false,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "currency",
+            "label": "Currency",
+            "isVisible": false,
+            "width": "80px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionAmount",
+            "label": "Collection Amount",
+            "isVisible": true,
+            "width": "160px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "failureReason",
+            "label": "Failure Reason",
+            "isVisible": false,
+            "width": "130px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "lastUpdated",
+            "label": "Last Updated",
+            "isVisible": false,
+            "width": "130px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+    ],
+    "mandates": [{
+            "key": "mandateId",
+            "label": "Mandate ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "160px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "merchantName",
+            "label": "FSP Merchant Name",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "msisdn",
+            "label": "Customer FI MSISDN",
+            "isVisible": false,
+            "width": "160px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "createdDate",
+            "label": "Creation Timestamp",
+            "isVisible": true,
+            "width": "180px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "100px",
+            "isStatusColumn": true,
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "limit",
+            "label": "Limit",
+            "isVisible": true,
+            "width": "110px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "currency",
+            "label": "Currency",
+            "isVisible": true,
+            "width": "100px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "expiryDate",
+            "label": "Expiry Date",
+            "isVisible": false,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "frequency",
+            "label": "Frequency",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "lastModifiedDate",
+            "label": "Last Updated",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        }
+    ],
+    "refunds": [{
+            "key": "refundId",
+            "label": "Refund Request ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "140px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "merchantName",
+            "label": "FSP Merchant Name",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "requestDate",
+            "label": "Request Date",
+            "isVisible": true,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "collectionId",
+            "label": "NxtPe Transaction ID",
+            "isVisible": false,
+            "width": "150px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionAmount",
+            "label": "Transaction Amount",
+            "isVisible": false,
+            "width": "160px",
+            "isStatusColumn": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "currency",
+            "label": "Currency",
+            "isVisible": false,
+            "width": "80px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "refundAmount",
+            "label": "Refund Amount",
+            "isVisible": true,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "customerAccountNumber",
+            "label": "Customer Account No",
+            "isVisible": true,
+            "width": "150px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "fspTxnId",
+            "label": "Transaction ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "120px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "txnDateTime",
+            "label": "Transaction Date Time",
+            "isVisible": true,
+            "width": "180px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+
+    ],
+    "revenue": [{
+            "key": "settlementId",
+            "label": "Settlement ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "merchantName",
+            "label": "FSP Merchant Name",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "revenueDisbursementDate",
+            "label": "Settlement Date",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "collectionId",
+            "label": "Collection ID",
+            "isVisible": false,
+            "width": "150px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionAmount",
+            "label": "Collection Amount",
+            "isVisible": false,
+            "width": "150px",
+            "isStatusColumn": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "revenueAmount",
+            "label": "Revenue Amount",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "customerAccountNumber",
+            "label": "Customer Account No",
+            "isVisible": true,
+            "width": "160px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "txnId",
+            "label": "Transaction ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "120px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+    ],
+    "customer": [{
+            "key": "customerAccountNumber",
+            "label": "Customer Account No",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "180px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalTransactionAmount",
+            "label": "Total Transaction Amount",
+            "isVisible": true,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "100px",
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalMandatesTillDate",
+            "label": "Total Mandates Till Date",
+            "isVisible": false,
+            "width": "200px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "totalActiveMandates",
+            "label": "Total Active Mandates",
+            "isVisible": false,
+            "width": "160px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "revenueAmount",
+            "label": "Revenue Amount",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+    ],
+    "tax": [{
+            "key": "settlementId",
+            "label": "Settlement ID",
+            "isVisible": true,
+            "isClickable": false,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionId",
+            "label": "Transaction ID",
+            "isVisible": true,
+            "width": "140px",
+            "isSearchAllowed": true,
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "taxDisbursementDate",
+            "label": "Disbursement Date",
+            "isVisible": true,
+            "width": "160px",
+            "isFilterAllowed": false,
+            "isSortAllowed": true,
+            "sort": "DESC",
+            "filter": ""
+        },
+        {
+            "key": "status",
+            "label": "Status",
+            "isVisible": true,
+            "width": "120px",
+            "isFilterAllowed": true,
+            "filtersList": [],
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "collectionAmount",
+            "label": "Collection Amount",
+            "isVisible": false,
+            "width": "140px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "taxAmount",
+            "label": "Tax Amount",
+            "isVisible": true,
+            "width": "80px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        },
+        {
+            "key": "fspTxnId",
+            "label": "FSP Transaction ID",
+            "isVisible": true,
+            "width": "150px",
+            "isFilterAllowed": false,
+            "isSortAllowed": false,
+            "sort": "",
+            "filter": ""
+        }
+    ]
+}

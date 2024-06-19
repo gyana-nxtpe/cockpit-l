@@ -1,0 +1,609 @@
+{
+    "transactions": {
+        "tableColumns": [
+            {
+                "key": "merchantName",
+                "label": "Merchant Name",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": true
+            },
+            {
+                "key": "orderId",
+                "label": "Order ID",
+                "isVisible": true,
+                "width": "100px",
+                "searchEnabled": false
+            },
+            {
+                "key": "mandateId",
+                "label": "Mandate ID",
+                "isClickable": true,
+                "isVisible": true,
+                "width": "140px",
+                "searchEnabled": false
+            },
+            {
+                "key": "collectionDate",
+                "label": "Collection Date",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerAcNoMobileNoLinkedWithFi",
+                "label": "Customer Account No",
+                "isVisible": true,
+                "width": "160px",
+                "isStatusColumn": true,
+                "searchEnabled": false
+            },
+            {
+                "key": "txnId",
+                "label": "TxnID",
+                "isVisible": true,
+                "width": "145px",
+                "searchEnabled": false
+            },
+            {
+                "key": "baseAmount",
+                "label": "Base Amount ",
+                "isVisible": true,
+                "width": "100px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerPaymentFee",
+                "label": "Customer Payment Fee",
+                "isVisible": true,
+                "width": "200px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerTaxAmount",
+                "label": "Customer Tax Amount",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "200px",
+                "searchEnabled": false
+            },
+            {
+                "key": "currency",
+                "label": "Currency",
+                "isVisible": true,
+                "width": "80px",
+                "searchEnabled": false
+            },
+            {
+                "key": "collectionAmount",
+                "label": "Collection Amount",
+                "isVisible": true,
+                "width": "160px",
+                "searchEnabled": false
+            },
+            {
+                "key": "frequency(Months)",
+                "label": "Frequency (Months)",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "130px",
+                "searchEnabled": false
+            },
+            {
+                "key": "failureReason",
+                "label": "Failure Reason",
+                "isVisible": true,
+                "width": "130px",
+                "searchEnabled": false
+            },
+            {
+                "key": "lastUpdated",
+                "label": "Last Updated",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "130px",
+                "searchEnabled": false
+            }
+        ],
+        "tableData": [
+            {
+                "merchantName":"Simranjeet Sir",
+                "orderId":"234567",
+                "mandateId": "21052",
+                "collectionDate": "2023-06-27 2:36:10",
+                "customerAcNoMobileNoLinkedWithFi": "6678468545",
+                "txnId": "8758521795",
+                "creationTimestamp": "2023-06-27 2:36:10",
+                "currency": "UGX",
+                "status": "Success",
+                "baseAmount": "22250",
+                "customerPaymentFee": "150",
+                "customerTaxAmount": "50",
+                "collectionAmount": "22450",
+                "frequency(Months)": "1",
+                "lastUpdated": "2023-06-27 2:36:10",
+                "failureReason":"NA"
+            },
+            {
+                "merchantName":"Rohan Kumar",
+                "orderId":"230567",
+                "mandateId": "21252",
+                "collectionDate": "2023-06-28 2:36:10",
+                "customerAcNoMobileNoLinkedWithFi": "6656238545",
+                "txnId": "8758521795",
+                "creationTimestamp": "2023-06-27 2:36:10",
+                "currency": "UGX",
+                "status": "Fail",
+                "baseAmount": "2250",
+                "customerPaymentFee": "150",
+                "customerTaxAmount": "50",
+                "collectionAmount": "2450",
+                "frequency(Months)": "1",
+                "lastUpdated": "2023-06-28 2:36:10",
+                "failureReason":"Connection Time out"
+            }
+        ]
+    },
+    "mandates":{
+        "tableColumns": [
+            {
+                "key": "mandateId",
+                "label": "Mandate ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "120px",
+                "searchEnabled": true
+            },
+            {
+                "key": "fspMerchantID",
+                "label": "FSP Merchant ID",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerFiMSISDN",
+                "label": "Customer FI MSISDN",
+                "isVisible": true,
+                "width": "160px",
+                "searchEnabled": false
+            },
+            {
+                "key": "creationTimestamp",
+                "label": "Creation Timestamp",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "100px",
+                "isStatusColumn": true,
+                "searchEnabled": false
+            },
+            {
+                "key": "limit",
+                "label": "Limit (Amount)",
+                "isVisible": true,
+                "width": "100px",
+                "searchEnabled": false
+            },
+            {
+                "key": "currency",
+                "label": "Currency",
+                "isVisible": true,
+                "width": "80px",
+                "searchEnabled": false
+            },
+            {
+                "key": "expiryDate",
+                "label": "Expiry Date",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "frequency",
+                "label": "Frequency (Months)",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "lastUpdated",
+                "label": "Last Updated",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "100px",
+                "searchEnabled": false
+            }
+        ],
+        "tableData": [
+            {
+                "mandateId": "21052",
+                "fspMerchantID":"56625",
+                "customerFiMSISDN": "9899598990",
+                "creationTimestamp": "2023-06-27 2:36:10",
+                "expiryDate": "2024-06-27 2:36:10",
+                "currency": "UGX",
+                "status": "Success",
+                "limit": "22450",
+                "frequency": "1",
+                "lastUpdated": "2023-06-27 2:36:10"
+            },
+            {
+                "mandateId": "13012",
+                "fspMerchantID":"64733",
+                "customerFiMSISDN": "8090100110",
+                "creationTimestamp": "2023-06-29 1:16:20",
+                "expiryDate": "2024-06-29 1:16:20",
+                "currency": "UGX",
+                "status": "Success",
+                "limit": "12450",
+                "frequency": "1",
+                "lastUpdated": "2023-06-30 5:36:40"
+            }
+            
+        ]
+    },
+    "refunds":{
+        "tableColumns": [
+            {
+                "key": "refundRequestId",
+                "label": "Refund Request ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "140px",
+                "searchEnabled": true
+            },
+            {
+                "key": "fspMerchantId/MerchantName",
+                "label": "FSP Merchant ID / Merchant Name",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "requestDate",
+                "label": "Request Date",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "nxtPeTransactionId",
+                "label": "NxtPe Transaction ID",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "transactionAmount",
+                "label": "Transaction Amount",
+                "isVisible": true,
+                "width": "100px",
+                "isStatusColumn": true,
+                "searchEnabled": false
+            },
+            {
+                "key": "currency",
+                "label": "Currency",
+                "isVisible": true,
+                "width": "80px",
+                "searchEnabled": false
+            },
+            {
+                "key": "refundAmount",
+                "label": "Refund Amount",
+                "isVisible": true,
+                "width": "100px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerAccountNo",
+                "label": "Customer  Account No",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "txnId",
+                "label": "Txn ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "txnDateTime",
+                "label": "Txn Date Time",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            }
+            
+        ],
+        "tableData": [
+            {
+                "refundRequestId": "21052",
+                "fspMerchantId/MerchantName":"56625",
+                "requestDate": "2023-06-20 2:36:10",
+                "nxtPeTransactionId":"NTNX1320047834",
+                "transactionAmount": "22450",
+                "currency": "UGX",
+                "refundAmount": "22450",
+                "customerAccountNo":"4573378237",
+                "status": "Success",
+                "txnId": "TNX46237TY2648",
+                "txnDateTime": "2023-06-25 12:36:10"
+            },
+            {
+                "refundRequestId": "20752",
+                "fspMerchantId/MerchantName":"56625",
+                "requestDate": "2023-06-24 7:23:10",
+                "nxtPeTransactionId":"NTNX1328347834",
+                "transactionAmount": "50450",
+                "currency": "UGX",
+                "refundAmount": "50450",
+                "customerAccountNo":"8742378237",
+                "status": "Success",
+                "txnId": "TNX46237362648",
+                "txnDateTime": "2023-06-26 10:36:10"
+            }
+        ]
+    },
+    "revenue":{
+        "tableColumns": [
+            {
+                "key": "settlementId",
+                "label": "Settlement ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "140px",
+                "searchEnabled": true
+            },
+            {
+                "key": "fspMerchantId/MerchantName",
+                "label": "FSP Merchant ID / Merchant Name",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "creationDate",
+                "label": "Creation Date",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "collectionId",
+                "label": "Collection ID",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "collectionAmount",
+                "label": "Collection Amount",
+                "isVisible": true,
+                "width": "100px",
+                "isStatusColumn": true,
+                "searchEnabled": false
+            },
+            {
+                "key": "revenueAmount",
+                "label": "Revenue Amount",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "customerAccountNo",
+                "label": "Customer Account No",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "txnId",
+                "label": "Txn ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            }
+            
+            
+            
+        ],
+        "tableData": [
+            {
+                "settlementId": "32105",
+                "fspMerchantId/MerchantName":"23225",
+                "creationDate": "2023-06-20 2:36:10",
+                "collectionId":"C-1320047834",
+                "collectionAmount": "22450",
+                "revenueAmount": "1231",
+                "customerAccountNo":"4573378237",
+                "status": "Success",
+                "txnId": "TNX4T346ES2648"
+            },
+            {
+                "settlementId": "53823",
+                "fspMerchantId/MerchantName":"21235",
+                "creationDate": "2023-06-23 2:36:10",
+                "collectionId":"C-1320047834",
+                "collectionAmount": "42450",
+                "revenueAmount": "4231",
+                "customerAccountNo":"856378237",
+                "status": "Success",
+                "txnId": "TNX4623RES2648"
+            }
+        ]
+    },
+    "customer":{
+        "tableColumns": [
+            {
+                "key": "customerAccountNo",
+                "label": "Customer Account No",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "140px",
+                "searchEnabled": true
+            },
+            {
+                "key": "revenueCollected",
+                "label": "Revenue Collected",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "totalMandatesTillDate",
+                "label": "Total Mandates Till Date",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "totalActiveMandates",
+                "label": "Total Active Mandates",
+                "isVisible": true,
+                "width": "160px",
+                "searchEnabled": false
+            },
+            {
+                "key": "revenueAmount",
+                "label": "Revenue Amount",
+                "isVisible": true,
+                "width": "80px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            }
+        ],
+        "tableData": [
+            {
+                "customerAccountNo":"4573378237",
+                "revenueCollected": "doubt",
+                "settlementId": "32105",
+                "totalMandatesTillDate":"4",
+                "totalActiveMandates": "2",
+                "revenueAmount": "1500",
+                "status": "Success"
+            },
+            {
+                "customerAccountNo":"3477364237",
+                "revenueCollected": "doubt",
+                "settlementId": "11105",
+                "totalMandatesTillDate":"3",
+                "totalActiveMandates": "1",
+                "revenueAmount": "1352",
+                "status": "Success"
+            }
+        ]
+    },
+    "tax":{
+        "tableColumns": [
+            {
+                "key": "settlementId",
+                "label": "Settlement ID",
+                "isVisible": true,
+                "isClickable": true,
+                "width": "140px",
+                "searchEnabled": true
+            },
+            {
+                "key": "transactionId",
+                "label": "Transaction ID",
+                "isVisible": true,
+                "width": "150px",
+                "searchEnabled": false
+            },
+            {
+                "key": "creationDate",
+                "label": "Creation Date ",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "collectionAmount",
+                "label": "Collection Amount",
+                "isVisible": true,
+                "width": "160px",
+                "searchEnabled": false
+            },
+            {
+                "key": "taxAmount",
+                "label": "Tax Amount",
+                "isVisible": true,
+                "width": "80px",
+                "searchEnabled": false
+            },
+            {
+                "key": "status",
+                "label": "Status",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            },
+            {
+                "key": "txnID",
+                "label": "Txn ID",
+                "isVisible": true,
+                "width": "120px",
+                "searchEnabled": false
+            }
+        ],
+        "tableData": [
+            {
+                "settlementId": "32105",
+                "transactionId":"T-277278237",
+                "creationDate": "2023-06-24 9:12:10",
+                "collectionAmount": "11500",
+                "taxAmount": "1150",
+                "status": "Success",
+                "txnID":"Tnx-211238137"
+            },
+            {
+                "settlementId": "30105",
+                "transactionId":"T-211278337",
+                "creationDate": "2023-06-22 11:09:10",
+                "collectionAmount": "17500",
+                "taxAmount": "2350",
+                "status": "Pending",
+                "txnID":"Tnx-2132438137"
+            }
+        ]
+    }
+}
