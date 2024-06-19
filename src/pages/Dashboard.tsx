@@ -1,5 +1,7 @@
 import ApplicationDetails from "@/components/overview/ApplicationDetails";
+import AuditLogs from "@/components/overview/AuditLogs";
 import DocumentsViewer from "@/components/overview/DocumentsViewer";
+import ExternalReference from "@/components/overview/ExternalReference";
 import { Download } from "lucide-react";
 import React, { useState } from "react";
 
@@ -54,10 +56,10 @@ const Dashboard = () => {
           <DocumentsViewer />
         )}
         {tabs.find((tab) => tab.isActive)?.name === "External References" && (
-          <div>External References</div>
+          <ExternalReference />
         )}
         {tabs.find((tab) => tab.isActive)?.name === "Audit Logs" && (
-          <div>Audit Logs</div>
+          <AuditLogs />
         )}
       </div>
     </div>
