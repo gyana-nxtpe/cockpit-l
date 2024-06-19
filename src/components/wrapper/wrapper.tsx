@@ -1,7 +1,7 @@
-import { Header } from 'components'
+
 // import CAPHeader from 'components/cap-header/cap-header'
 import React from 'react'
-import "./wrapper.scss"
+import Header from './Header'
 type Props = {
     children: React.ReactNode
 }

@@ -1,11 +1,10 @@
-import { Wrapper } from "components";
-import React, { Suspense } from "react";
-import DashboardRoutes from "routes/dashboard-routes";
-import "./styles.scss";
-import "./tailwind.scss";
 
-// import { useLocation } from "react-router";
-const AuthN = React.lazy(() => import("app2/App"));
+import React from "react";
+import DashboardRoutes from "routes/dashboard-routes";
+import Wrapper from "./components/wrapper/wrapper";
+
+
+
 const App: React.FC = () => {
   return (
     <>

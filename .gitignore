@@ -1,1 +1,7 @@
 node_modules
+/build
+*.css
+.VSCodeCounter
+# Sentry Config File
+.env.sentry-build-plugin
+.env

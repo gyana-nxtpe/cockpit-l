@@ -7,11 +7,11 @@ import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import {
   Configuration as WebpackConfiguration,
   HotModuleReplacementPlugin,
-  container
+  // container
 } from "webpack";
 import { Configuration as WebpackDevServerConfiguration } from "webpack-dev-server";
 
-const { ModuleFederationPlugin } = container;
+// const { ModuleFederationPlugin } = container;
 
 interface Configuration extends WebpackConfiguration {
   devServer?: WebpackDevServerConfiguration;
@@ -114,26 +114,26 @@ const config: Configuration = {
         { from: "./public/1-static/configs", to: "1-static/configs" },
       ],
     }),
-    new ModuleFederationPlugin({
-      name: "cockpit-n",
-      remotes: {
-         app2: "app2@https://nonprod.nxt.pe/auth-n-fe/remoteEntry.js",
-        // app2: "app2@http://localhost:8888/remoteEntry.js",
-      },
-      shared: {
-        react: { singleton: true, eager: true, requiredVersion: "^18.2.0" },
-        "react-dom": {
-          singleton: true,
-          eager: true,
-          requiredVersion: "^18.2.0",
-        },
-        "react-router-dom": {
-          singleton: true,
-          eager: true,
-          requiredVersion: "^6.11.1",
-        },
-      },
-    }),
+    // new ModuleFederationPlugin({
+    //   name: "cockpit-n",
+    //   remotes: {
+    //      app2: "app2@https://nonprod.nxt.pe/auth-n-fe/remoteEntry.js",
+    //     // app2: "app2@http://localhost:8888/remoteEntry.js",
+    //   },
+    //   shared: {
+    //     react: { singleton: true, eager: true, requiredVersion: "^18.2.0" },
+    //     "react-dom": {
+    //       singleton: true,
+    //       eager: true,
+    //       requiredVersion: "^18.2.0",
+    //     },
+    //     "react-router-dom": {
+    //       singleton: true,
+    //       eager: true,
+    //       requiredVersion: "^6.11.1",
+    //     },
+    //   },
+    // }),
   ],
   devtool: "source-map",
   devServer: {
