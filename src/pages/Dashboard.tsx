@@ -21,6 +21,7 @@ const Dashboard = () => {
             key={tab.id}
             className="px-1 py-2 cursor-pointer"
             onClick={() => {
+              if(tab.isActive) return;
               setTabs(
                 tabs.map((t) =>
                   t.id === tab.id
