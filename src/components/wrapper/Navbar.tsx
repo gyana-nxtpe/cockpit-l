@@ -12,7 +12,11 @@ const Navbar = () => {
       </div>
       <div
         className="bg-white h-10 w-10 flex items-center justify-center cursor-pointer rotate-180"
-        onClick={() => navigate("/")}
+        onClick={() => {
+          localStorage.removeItem("isLoggedIn");
+          navigate("/");
+          window.location.reload();
+        }}
       >
         {/* Profile icon */}
         <LogOut />

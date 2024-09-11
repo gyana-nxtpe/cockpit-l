@@ -15,6 +15,7 @@ const Login = ({
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoggedIn(true);
+    localStorage.setItem("isLoggedIn", "true");
     navigate("/overview");
   };
   return (

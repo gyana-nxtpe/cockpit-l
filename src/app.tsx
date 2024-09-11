@@ -6,7 +6,9 @@ import Login from "./pages/Login";
 import { Route, Routes } from "react-router-dom";
 
 const App: React.FC = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(
+    localStorage.getItem("isLoggedIn") === "true"
+  );
   return (
     <>
       {isLoggedIn ? (

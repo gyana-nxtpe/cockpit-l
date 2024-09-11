@@ -9,7 +9,7 @@ const Header = ({ children }: { children: React.ReactNode }) => {
       <SidePanel />
 
       {/* Main content */}
-      <div className="flex-1 ml-[10%] flex flex-col">
+      <div className="flex-1 ml-[6%] flex flex-col">
         {/* Navbar */}
         <Navbar />
 
