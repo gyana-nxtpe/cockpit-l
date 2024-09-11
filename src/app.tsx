@@ -1,16 +1,23 @@
-
-import React from "react";
-import DashboardRoutes from "routes/dashboard-routes";
 import Wrapper from "./components/wrapper/wrapper";
-import './tailwind.css'
-
+import React, { useState } from "react";
+import DashboardRoutes from "routes/dashboard-routes";
+import "./tailwind.css";
+import Login from "./pages/Login";
+import { Route, Routes } from "react-router-dom";
 
 const App: React.FC = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
-      <Wrapper>
-        <DashboardRoutes />
-      </Wrapper>
+      {isLoggedIn ? (
+        <Wrapper>
+          <DashboardRoutes />
+        </Wrapper>
+      ) : (
+        <Routes>
+          <Route path="/" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        </Routes>
+      )}
     </>
   );
 };

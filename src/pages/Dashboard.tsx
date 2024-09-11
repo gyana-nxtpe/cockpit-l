@@ -4,6 +4,7 @@ import DocumentsViewer from "@/components/overview/DocumentsViewer";
 import ExternalReference from "@/components/overview/ExternalReference";
 import { Download } from "lucide-react";
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const [tabs, setTabs] = useState([
@@ -12,6 +13,7 @@ const Dashboard = () => {
     { id: 3, name: "External References", isActive: false },
     { id: 4, name: "Audit Logs", isActive: false },
   ]);
+  const navigate = useNavigate();
   return (
     <div>
       {/* tabs  */}
@@ -21,7 +23,7 @@ const Dashboard = () => {
             key={tab.id}
             className="px-1 py-2 cursor-pointer"
             onClick={() => {
-              if(tab.isActive) return;
+              if (tab.isActive) return;
               setTabs(
                 tabs.map((t) =>
                   t.id === tab.id
@@ -62,6 +64,20 @@ const Dashboard = () => {
         {tabs.find((tab) => tab.isActive)?.name === "Audit Logs" && (
           <AuditLogs />
         )}
+      </div>
+
+      <div className="fixed bottom-0 left-0 right-0 bg-white p-4 shadow-lg">
+        <div className="flex items-center justify-end gap-10">
+          <button
+            className="btn btn-secondary text-[#707070]"
+            onClick={() => navigate("/overview")}
+          >
+            Back
+          </button>
+
+          <button className="btn btn-danger text-[#EC1C23]">Reject</button>
+          <button className="btn btn-success text-[#029588]">Approve</button>
+        </div>
       </div>
     </div>
   );
