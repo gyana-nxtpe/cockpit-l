@@ -1,3 +1,4 @@
+import { BASE_PAGE_URL } from "@/constants/url.constant";
 import { LogOut } from "lucide-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -13,8 +14,8 @@ const Navbar = () => {
       <div
         className="bg-white h-10 w-10 flex items-center justify-center cursor-pointer rotate-180"
         onClick={() => {
+          navigate(`/${BASE_PAGE_URL}`);
           localStorage.removeItem("isLoggedIn");
-          navigate("/");
           window.location.reload();
         }}
       >

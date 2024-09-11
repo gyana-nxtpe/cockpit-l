@@ -1,9 +1,16 @@
+import { BASE_PAGE_URL } from "@/constants/url.constant";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Overview = () => {
   const [openFlapId, setOpenFlapId] = useState<string | null>(null);
   const navigate = useNavigate();
+
+  const colorClasses = {
+    green: "bg-green-500",
+    purple: "bg-purple-500",
+    yellow: "bg-yellow-500",
+  };
 
   return (
     <div className="p-6">
@@ -163,7 +170,7 @@ const Overview = () => {
                     <div className="flex space-x-2">
                       <button
                         className="text-gray-400 hover:text-gray-500"
-                        onClick={() => navigate(`/dashboard`)}
+                        onClick={() => navigate(`/${BASE_PAGE_URL}/dashboard`)}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +249,9 @@ const Overview = () => {
                               className="flex flex-col items-center z-20"
                             >
                               <div
-                                className={`rounded-full h-5 w-5 bg-${item.color}-500 flex items-center justify-center mb-2`}
+                                className={`rounded-full h-5 w-5 ${
+                                  colorClasses[item.color]
+                                } flex items-center justify-center mb-2`}
                               >
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"

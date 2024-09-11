@@ -2,6 +2,7 @@ import ApplicationDetails from "@/components/overview/ApplicationDetails";
 import AuditLogs from "@/components/overview/AuditLogs";
 import DocumentsViewer from "@/components/overview/DocumentsViewer";
 import ExternalReference from "@/components/overview/ExternalReference";
+import { BASE_PAGE_URL } from "@/constants/url.constant";
 import { Download } from "lucide-react";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -70,7 +71,7 @@ const Dashboard = () => {
         <div className="flex items-center justify-end gap-10">
           <button
             className="btn btn-secondary text-[#707070]"
-            onClick={() => navigate("/overview")}
+            onClick={() => navigate(`/${BASE_PAGE_URL}/overview`)}
           >
             Back
           </button>
